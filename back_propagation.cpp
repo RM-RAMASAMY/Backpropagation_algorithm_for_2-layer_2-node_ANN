@@ -104,7 +104,7 @@ int main()
 //	cout<<"\nweights after pattern "<<1<<" : \n";
 //	cout<<"\n w: "<<a[0].w11<<" "<<a[0].w12<<" "<<a[0].w21<<" "<<a[0].w22;
 //	cout<<"\n\n m: "<<a[0].m11<<" "<<a[0].m12<<" "<<a[0].m21<<" "<<a[0].m22;
-	for(int l=0;l<n;++l)
+	for(int l=1;l<n;++l)
 	{
 		a[l].w11=a[l-1].w11;
 		a[l].w12=a[l-1].w12;
